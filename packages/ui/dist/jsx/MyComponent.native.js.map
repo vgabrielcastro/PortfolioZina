@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": ["../../src/MyComponent.tsx"],
+  "mappings": "AAAA,SAAS,QAAQ,cAAc;AAExB,MAAM,cAAc,OAAO,QAAQ;AAAA,EACxC,MAAM;AAAA,EACN,iBAAiB;AAAA,EAEjB,UAAU;AAAA,IACR,MAAM;AAAA,MACJ,MAAM;AAAA,QACJ,iBAAiB;AAAA,MACnB;AAAA,IACF;AAAA,EACF;AACF,CAAC;",
+  "names": []
+}
