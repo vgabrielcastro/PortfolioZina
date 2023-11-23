@@ -56,7 +56,7 @@ export function HomeScreen() {
                   src="https://avatars.githubusercontent.com/u/91857484?v=4" />
                 <Avatar.Fallback bc="$gray1" />
               </Avatar>
-              <H1 ta="center">Hi, I'm Vinícius Gabriel, a Full-Stack developer who loves technology....</H1>
+              <H1 ta="center">Hi, I'm Vinícius Gabriel, a Full-Stack developer who loves technology...</H1>
               <XStack w="$2" h="$1" animation='bouncy' enterStyle={{
                 x: -100,
               }}>
