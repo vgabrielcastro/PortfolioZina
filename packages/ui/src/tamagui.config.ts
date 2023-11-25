@@ -50,6 +50,7 @@ const bodyFont = createInterFont(
   }
 )
 
+
 export const config = createTamagui({
   defaultFont: '$silkscreen',
   animations,
