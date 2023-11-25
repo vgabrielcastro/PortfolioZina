@@ -40,17 +40,6 @@ export function Stacks({ title, subtitle, icon }, props: CardProps) {
                 <H2>{title}</H2>
                 <Paragraph theme="alt2" >{subtitle}</Paragraph>
             </Card.Header >
-            {/* <Card.Background>
-                <Image
-                    resizeMode="contain"
-                    alignSelf="center"
-                    source={{
-                        width: 200,
-                        height: 300,
-                        uri: Coding.src
-                    }}
-                />
-            </Card.Background > */}
         </Card >
     )
 

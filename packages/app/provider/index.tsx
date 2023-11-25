@@ -1,8 +1,9 @@
-import { CustomToast, TamaguiProvider, TamaguiProviderProps, Theme, ToastProvider } from '@my/ui'
+import { CustomToast, Footer, TamaguiProvider, TamaguiProviderProps, ToastProvider } from '@my/ui'
 import { useColorScheme } from 'react-native'
 import { ToastViewport } from './ToastViewport'
 import config from '../tamagui.config'
-import { useState } from 'react'
+import { Header } from 'app/features/components/Header/Header'
+import React, { useState, useEffect } from 'react'
 
 
 export function Provider({ children, ...rest }: Omit<TamaguiProviderProps, 'config'>) {
@@ -14,6 +15,8 @@ export function Provider({ children, ...rest }: Omit<TamaguiProviderProps, 'conf
       defaultTheme={scheme === 'dark' ? 'dark' : 'light'}
       {...rest}
     >
+      <Header />
+      {/* <Footer /> */}
       <ToastProvider
         swipeDirection="horizontal"
         duration={6000}
